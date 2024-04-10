@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "letter-boxed"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Chiquito <daniel.chiquito@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "letter_boxed"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+main = "letter_boxed.main:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
