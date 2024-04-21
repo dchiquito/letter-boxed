@@ -36,8 +36,8 @@ def load_words() -> dict[str, list[str]]:
 
 def load_puzzle() -> Puzzle:
     while True:
-        # line = input()
-        line = "ghzbrtiakepl"
+        line = input()
+        # line = "ghzbrtiakepl"
         if len(line) != 12:
             print("input exactly 12 characters")
             continue
